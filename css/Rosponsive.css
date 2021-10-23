@@ -1,0 +1,291 @@
+   /* 992px width css start */
+   @media screen and (max-width: 992px) {
+    /* header css start */
+    .tittle {
+       justify-self: start;
+       grid-column: 3 / 7;
+    }
+    nav {
+       grid-column: 7 / -1;
+
+    }
+    .tittle h1 {
+        font-size: 25px;
+    }
+    nav ul li a {
+       padding: 4px;
+       font-size: 16px;
+       margin-right: 15px;
+   }
+    /* header css start */
+    /* professional css start */
+
+    /* card css start */
+    .profes-grid {
+        grid-gap: 10px 15px;
+    }
+    .card-body {
+        padding: 0 23px 10px;
+    }
+    /* card css end */
+
+    /* professional css end */
+
+    /* contact css start */
+    .conta {
+        padding: 0px 0px;
+    }
+    .conta input[type="submit"], .conta input[type="reset"] {
+        width: 89px;
+        padding: 3px;
+        margin: 6px 6px;
+    }
+    .link-icon a {
+        margin: 1px;
+    }
+    .conta form {
+        margin-top: 10%;
+    }
+    .link-icon .madia-icon {
+        top: 30%;
+        transform: translate(-50%,-30%);
+    }
+    /* contact css end */
+
+    /* footer css start */
+    .foot-link {
+        grid-column: 1 / 7;
+    }
+    .copyright {
+        grid-column: 7 / -1;
+    }
+
+    /* footer css end */
+}
+
+/* 992px width css end */
+
+
+ /* 768px width css start */
+ @media screen and (max-width: 768px) {
+    /* header css start */
+    .logo {
+       grid-column: 1 / 6;
+       justify-self: center;
+   }
+   .tittle {
+       grid-column: 6 / -1;
+       justify-self: start;
+   }
+   nav {
+       grid-column: 1 / -1;
+       justify-self: center;
+       margin-top: 20px;
+   }
+   nav ul li a {
+       padding: 10px;
+       color: #ecf0f1;
+       font-size: 20px;
+       margin-right: 20px;
+   }
+    /* header css end */
+    /* main css start */
+
+    /* about us start */
+    .about-img {
+        grid-column: 1 / -1;
+    }
+    .about-text {
+        grid-column: 1 / -1;
+    }
+    /* about us end */
+
+    /* professional css start */
+
+    /* card css start */
+    .profes-grid {
+        grid-gap: 10px 16px;
+    }
+    .card-tittle h1 {
+        font-size: 16px;
+    }
+    .card-body {
+        padding: 0px 18px 7px;
+        font-size: 15px;
+    }
+    /* card css end */
+
+    /* professional css end */
+
+      /* contact css start */
+      .achiment {
+        grid-column: 1 / 7;
+    }
+    .conta {
+        grid-column: 7 / -1;
+    }
+    .link-icon {
+        grid-column: 1 / -1;
+    }
+    .link-icon .madia-icon {
+        position: relative;
+        text-align: center;
+    }
+    .link-icon a {
+        margin: 5px;
+    }
+
+     /* contact css end */
+
+    /* main css end */
+    /* footer css start */
+    .foot-link {
+        grid-column: 1 / 8;
+    }
+    .copyright {
+        grid-column: 8 / -1;
+        align-self: center;
+    }
+
+    /* footer css start */
+
+}
+/* 768px width css end */
+
+
+ /* 600px width css start */
+
+    @media screen and (max-width: 600px) {
+        /* header css start */
+
+
+        .logo {
+            grid-column: 1 / -1;
+            justify-self: center;
+        }
+        .tittle {
+            grid-column: 1 / -1;
+            justify-self: center;
+        }
+        nav {
+            grid-column: 1 / -1;
+            justify-self: stretch;
+        }
+        nav ul {
+            flex-direction: column;
+        }
+        nav ul li  {
+            background: #7f8c8d;
+            margin: 4px 0;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* header css start */
+        /* main css start  */
+
+        /* profile css star */
+        .top-img {
+            width: 100px;
+            height: 50px;
+        }
+        .bottom-img {
+            width: 100px;
+            height: 50px;
+        }
+        .profile-descrip {
+            width: 70%;
+        }
+        .profile-descrip h1 {
+            font-size: 26px;
+        }
+        /* profile css end */
+
+        /* professional css start */
+
+        /* card css start  */
+        .profes-grid {
+            grid-gap: 50px 16px;
+        }
+        .card {
+            grid-column: span 12;
+        }
+        .card-body {
+            padding: 0px 37px 50px;
+        }
+        .card-body ol {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+
+        }
+        .card-body ol li {
+            grid-column: span 1fr;
+        }
+        .card-body ul li::before {
+            top: calc(100%);
+        }
+        .card-body ul li::after {
+            top: calc(100%);
+        }
+        /* card css end  */
+
+        /* professional css end */
+
+    /* contact css start */
+    .contact-grid {
+        grid-gap: 28px 0px;
+    }
+      .achiment {
+        grid-column: 1 / -1;
+    }
+    .conta {
+        grid-column: 1 / -1;
+    }
+    .link-icon {
+        grid-column: 1 / -1;
+    }
+
+     /* contact css end */
+
+        /* main css end  */
+        /* footer css start */
+        .footer-grid {
+            grid-row-gap: 20px;
+        }
+        .foot-link {
+            grid-column: 1 / -1;
+        }
+        .copyright {
+            grid-column: 1 / -1;
+            justify-self: center;
+        }
+        .foot-link ul {
+            flex-direction: column;
+        }
+        .foot-link ul li  {
+            background: #7f8c8d;
+            margin: 4px 0;
+            border-radius: 5px;
+            text-align: center;
+            padding: 8px 0;
+        }
+       
+
+        /* footer css end */
+
+
+
+
+    }
+
+ /* 600px width css end */
+
+
+
+
+
+
+
+
+  /* 1400px width css start */
+ /* 1400px width css end */
